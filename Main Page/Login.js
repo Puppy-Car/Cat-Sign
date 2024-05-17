@@ -4,6 +4,7 @@ var Password2 = ["Cat", "Meow Meow"]
 
 alert("Please Login")
 var User = prompt("Please enter your username, Meow!")
+alert(User_List.includes(User))
 if (User_List.includes(User)) {
   var Password = prompt("Please enter your password, Meow!")
   if (Password1.includes(Password) || Password2.includes(Password)) {
