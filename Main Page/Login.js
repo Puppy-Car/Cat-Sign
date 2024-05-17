@@ -9,4 +9,12 @@ if (User_List.contains(User)) {
   if (Password1.includes(Password) || Password2.includes(Password)) {
     alert("Welcome, Meow!!!")
   }
+  else {
+    alert("Wrong Password, Meow")
+    alert("Re-Login?")
+  }
+}
+else {
+  alert("Oh, Meow. We cannot see your Meow Account in the Meow List")
+  alert("Re-Login?")
 }
