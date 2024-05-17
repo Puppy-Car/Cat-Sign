@@ -1,6 +1,6 @@
 function ReLoad() {
   var ReLogin = confirm("Re-Login?")
-  if ((ReLogin) == true) {
+  if (ReLogin) {
     window.location.reload()
   }
 }
