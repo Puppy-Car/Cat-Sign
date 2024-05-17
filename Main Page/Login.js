@@ -17,7 +17,21 @@ var User = prompt("Please enter your username, Meow!")
 
 if (UserList1.includes(User) || UserList2.includes(User)) {
   var Password = prompt("Please enter your password, Meow!")
-  if (Password1.includes(Password) || Password2.includes(Password)) {
+
+  var U1 = UserList1.indexOf("User")
+  var U2 = UserList2.indexOf("User")
+  
+  if (U1 == -1) {
+    var U = U2
+  }
+  else {
+    var U = U1
+  }
+  
+  var P1 = Password1[U]
+  var P2 = Password2[U]
+  
+  if (Password == P1 || Password == P2) {
     alert("Welcome, Meow!!!")
   }
   else {
