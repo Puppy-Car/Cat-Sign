@@ -1,4 +1,6 @@
-var User_List = ["Meow Meow", "Cat"]
+var UserList1 = ["Meow Meow", "Cat"]
+var UserList2 = ["Meow", "at"]
+
 var Password1 = ["Meow Meow", "Cat"]
 var Password2 = ["Cat", "Meow Meow"]
 
