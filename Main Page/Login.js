@@ -1,4 +1,4 @@
-func ReLoad() {
+function ReLoad() {
   var ReLogin = confirm("Re-Login?")
   if ((ReLogin) == true) {
     window.location.reload()
