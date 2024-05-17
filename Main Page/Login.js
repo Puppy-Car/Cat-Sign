@@ -1,3 +1,11 @@
+func ReLoad() {
+  var ReLogin = confirm("Re-Login?")
+  if ((ReLogin) == true) {
+    window.location.reload()
+  }
+}
+  
+
 var UserList1 = ["Meow Meow", "Cat"]
 var UserList2 = ["Meow", "at"]
 
@@ -14,10 +22,10 @@ if (User_List.includes(User)) {
   }
   else {
     alert("Wrong Password, Meow")
-    alert("Re-Login?")
+    ReLoad()
   }
 }
 else {
   alert("Oh, Meow. We cannot see your Meow Account in the Meow List")
-  alert("Re-Login?")
+  ReLoad()
 }
