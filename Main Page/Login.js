@@ -31,7 +31,10 @@ if (UserList1.includes(User) || UserList2.includes(User)) {
   var P1 = Password1[U];
   var P2 = Password2[U];
   
+  //Debug
+  /*
   alert("U: " + U + "\nP1: " + P1 + "\nP2: " + P2);
+  */
   
   if (Password == P1 || Password == P2) {
     alert("Welcome, Meow!!!");
