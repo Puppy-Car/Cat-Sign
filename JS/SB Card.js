@@ -7,8 +7,8 @@ function ReLoad() {
 var User1 = ["Old Man", "Old Woman"];
 var Pass1 = ["OM", "OW"];
 
-alert("Kill yourself Bad Guy!!!");
-alert("You can login but you will die!!!");
+alert("K**l yourself Bad Guy!!!");
+alert("You can login but you will d**!!!");
 
 var User = prompt("Enter Username:");
 if (User1.includes(User)) {
