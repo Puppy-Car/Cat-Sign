@@ -19,6 +19,7 @@ if (User1.includes(User)) {
   var P1 = Pass1[User1.indexOf(User)];
   if (Pass == P1) {
     alert("Password Approved\n\nAccount Approved");
+    alert("Welcome Trash " + Pass + " go to d**!");
   } else {
     alert("Password Not Approved");
     ReLoad();
