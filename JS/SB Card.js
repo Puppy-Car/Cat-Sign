@@ -16,7 +16,7 @@ if (User1.includes(User)) {
   
   var Pass = prompt("Enter Password:");
 
-  var P1 = Pass1[User1.indexof(User)];
+  var P1 = Pass1[User1.indexOf(User)];
   if (Pass == P1) {
     alert("Password Approved\n\nAccount Approved");
   } else {
