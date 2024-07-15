@@ -38,7 +38,7 @@ if (UserList1.includes(User) || UserList2.includes(User)) {
   
   if (Password == P1 || Password == P2) {
     alert("Welcome, Meow!!!");
-    window.open("Enter.html");
+    window.location.href = "Enter.html";
   }
   else {
     alert("Wrong Password, Meow");
