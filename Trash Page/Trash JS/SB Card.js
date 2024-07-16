@@ -4,6 +4,10 @@ function ReLoad() {
   }
 }
 
+function SB() {
+  alert("You are SB!!!");
+}
+
 var User1 = ["Old Man", "Old Woman"];
 var Pass1 = ["OM", "OW"];
 
