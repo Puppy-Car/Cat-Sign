@@ -5,7 +5,7 @@ function ReLoad() {
 }
 
 function SB() {
-  alert("You are SB!!!");
+  alert("You are God!!!");
 }
 
 var BSB = document.getElementById("SB");
