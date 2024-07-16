@@ -8,6 +8,8 @@ function SB() {
   alert("You are SB!!!");
 }
 
+document.getElementById("SB").disabled = true;
+
 var User1 = ["Old Man", "Old Woman"];
 var Pass1 = ["OM", "OW"];
 
