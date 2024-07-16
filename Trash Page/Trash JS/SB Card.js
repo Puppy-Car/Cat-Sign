@@ -8,7 +8,8 @@ function SB() {
   alert("You are SB!!!");
 }
 
-document.getElementById("SB").disabled = true;
+var BSB = document.getElementById("SB");
+BSB.diabled = true;
 
 var User1 = ["Old Man", "Old Woman"];
 var Pass1 = ["OM", "OW"];
@@ -26,6 +27,7 @@ if (User1.includes(User)) {
   if (Pass == P1) {
     alert("Password Approved\n\nAccount Approved");
     alert("Welcome Trash " + User + " go to d**!");
+    BSB.diabled = false;
   } else {
     alert("Password Not Approved");
     ReLoad();
